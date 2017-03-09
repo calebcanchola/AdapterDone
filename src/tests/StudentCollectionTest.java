@@ -24,5 +24,10 @@ public class StudentCollectionTest {
     assertEquals(2.0, students.getFirstStudentWithName("Jamie").getGPA(), 0.0001);
   }
   
+  @Test
+  public void testGetValue(){
+	  StudentCollection a = new StudentCollection();
+	  
+  }
   
 }
